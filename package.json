@@ -1,0 +1,19 @@
+{
+  "name": "node-fin-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "dev:lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "eslint": "^8.43.0",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^1.2.0",
+    "nodemon": "^2.0.22"
+  }
+}
